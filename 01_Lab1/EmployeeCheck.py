@@ -1,11 +1,10 @@
-#checking employees list
-company_emps = ['Michael', 'Samir', 'Barsoum']
 def isEmployee(name):
-  for emp in company_emps:
+  for emp in companyEmps:
     if name == emp:
-      print(True)
+      return True
     else:
-      print(False)
-
+      return False
+      
+      
 if __name__ == '__main__':
   isEmployee('Michael')
